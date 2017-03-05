@@ -10,3 +10,5 @@ Hello World with Flask and Docker
 [Detailed instructions](https://docs.docker.com/engine/getstarted/step_one/)
 
 ## Clone the repo
+
+    git clone https://github.com/dsears/hello-flask.git
