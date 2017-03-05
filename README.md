@@ -13,13 +13,16 @@ Hello World with Flask and Docker
 
     git clone https://github.com/dsears/hello-flask.git
 
-## Build the docker image
+## Build and tag the docker image
 
 ```
-$ cd hello-flask
-$ docker build -t hello-flask .
-...
-Successfully built 8f92d2586ca8
+cd hello-flask
+docker build -t dsears/hello-flask:latest .
 ```
 
-## Tag it
+## Push it to Docker Hub
+
+```
+docker login
+docker push dsears/hello-flask:latest
+```
