@@ -1,8 +1,12 @@
 # hello-flask
 Hello World with Flask and Docker
 
-## Installing docker
+# Building and deploying to Docker Hub
 
-[Install docker](https://docs.docker.com/engine/getstarted/step_one/):
+## Install docker
 
     curl -fsSL https://get.docker.com/ | sh
+
+[Detailed instructions](https://docs.docker.com/engine/getstarted/step_one/)
+
+## Clone the repo
